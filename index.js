@@ -1,6 +1,6 @@
 /**
  * Módulo: isPlain
- * Objetivo: Determina si el valor pasado es un objeto y, de ser así, si este así  si si constructor es Object.
+ * Objetivo: Determina si el valor pasado es un objeto plano.
  */
 module.exports = function isPlain(o) {
 	return Boolean(
